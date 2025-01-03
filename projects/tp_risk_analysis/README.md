@@ -1,16 +1,16 @@
 # Transfer Pricing Risk Assessment: Machine Learning Solution
 
-==================================================================================================================================================
+---
 
-## Business Scenario
+## 🚀 Business Scenario
 
 Transfer pricing refers to the prices at which transactions occur between subsidiaries or related entities within a multinational corporation. These transactions can include the sale of goods, provision of services, or transfer of intellectual property. For tax and financial reporting purposes, it's critical that transfer pricing adheres to `arm's length principles`, which means transactions should occur at market rates to prevent tax evasion and manipulation.
 
 Multinational companies face challenges ensuring that transfer pricing complies with both local and international tax regulations. Mispricing can lead to costly audits, reputational damage, and financial penalties. Therefore, it's important to develop automated systems that can assess the `risk` of transfer pricing transactions in real-time.
 
-==================================================================================================================================================
+---
 
-## Business Problem
+## 🧠 Business Problem
 
 Given the volume and complexity of transactions between multinational subsidiaries, identifying high-risk transfer pricing transactions manually can be tedious and prone to error. The business problem is to develop a `machine learning model` that can classify the risk of each transaction (high, medium, or low) based on factors such as:
 
@@ -21,9 +21,9 @@ Given the volume and complexity of transactions between multinational subsidiari
 
 The model should provide accurate predictions to assist audit teams and decision-makers by classifying each transaction's risk of violating transfer pricing rules. This can ensure that high-risk transactions are flagged for further review, minimizing compliance risks.
 
-==================================================================================================================================================
+---
 
-## Solution Approach
+## 🛠️ Solution Approach
 
 The project follows a well-structured `end-to-end machine learning workflow` to automate transfer pricing risk classification. Below is a detailed breakdown of the steps:
 
@@ -72,9 +72,9 @@ The project follows a well-structured `end-to-end machine learning workflow` to 
 - **Saving the Model**: The trained model and preprocessing pipeline are saved using `joblib` for future use.
 - **Integration**: The model can be integrated into a company's workflow to classify real-time transactions and flag high-risk cases for further review.
 
-==================================================================================================================================================
+---
 
-## Outcome
+## 📈 Outcome
 
 The machine learning model provides an `automated risk classification system` to assist multinational corporations in:
 
@@ -83,9 +83,9 @@ The machine learning model provides an `automated risk classification system` to
 - **Streamlining Audits**: Reducing manual effort by flagging only high-risk transactions for review.
 - **Reducing Errors**: Minimizing the risk of manual errors and bias in decision-making.
 
-==================================================================================================================================================
+---
 
-## Key Skills Demonstrated
+## 🧠 Key Skills Demonstrated
 
 This project showcases the following **end-to-end machine learning skills**, which are critical for any data science or machine learning role:
 
@@ -121,9 +121,9 @@ This project showcases the following **end-to-end machine learning skills**, whi
 - Organized the project into modular scripts for data generation, preprocessing, model training, evaluation, and deployment.
 - Used version control (Git) to track changes and ensure reproducibility.
 
-==================================================================================================================================================
+---
 
-## Technical Tools and Libraries
+## 🛠️ Technical Tools and Libraries
 
 The following tools and libraries were used in this project:
 
@@ -136,9 +136,9 @@ The following tools and libraries were used in this project:
 - **Colorama**: Adding colored console output for better readability.
 - **Matplotlib/Seaborn**: Data visualization (optional for advanced visualizations).
 
-==================================================================================================================================================
+---
 
-## Files and Directories
+## 📂 Files and Directories
 
 The project is organized into the following structure:
 
@@ -152,9 +152,9 @@ The project is organized into the following structure:
   - `5_evaluate.py`: Evaluates the model's performance on the test set.
   - `6_reset.py`: Resets the project by deleting files in the `data` and `models` folders.
 
-==================================================================================================================================================
+---
 
-## Conclusion
+## 🎯 Conclusion
 
 This project demonstrates my ability to **manage an end-to-end machine learning project**, from problem understanding and data generation to model deployment. By leveraging synthetic data, robust preprocessing techniques, and a Random Forest Classifier, I developed a solution that automates transfer pricing risk assessment for multinational corporations. This project highlights my technical expertise in:
 
@@ -164,19 +164,21 @@ This project demonstrates my ability to **manage an end-to-end machine learning 
 
 The skills and methodologies showcased in this project are directly applicable to real-world business challenges, making me a strong candidate for roles in data science and machine learning.
 
-==================================================================================================================================================
+---
 
-## How to Run the Project
+## 🚀 How to Run the Project
 
 1. **Install Dependencies**:
 
-   - pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-2. **Run the Scripts (in this order)**:
-
-   - python 1_generate.py
-   - python 2_explore.py
-   - python 3_clean.py
-   - python 4_train.py
-   - python 5_evaluate.py
-   - python 6_reset.py
+   ```bash
+   python 1_generate.py
+   python 2_explore.py
+   python 3_clean.py
+   python 4_train.py
+   python 5_evaluate.py
+   python 6_reset.py
+   ```
