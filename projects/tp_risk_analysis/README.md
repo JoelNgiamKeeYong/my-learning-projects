@@ -174,6 +174,8 @@ The skills and methodologies showcased in this project are directly applicable t
    pip install -r requirements.txt
    ```
 
+2. **Run the Scripts (in this order)**:
+
    ```bash
    python 1_generate.py
    python 2_explore.py
